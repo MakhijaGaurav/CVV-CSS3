@@ -1,0 +1,507 @@
+/*********************** CV template **********************/
+/*Media Queries for larger devices*/
+/*
+@media(min-width:768px){
+    #cv-body #cv-container #left-div #box{
+        width: 10%;
+        height: 10%;
+    }
+}
+*/
+@media(max-width:800px){
+       
+    }
+}
+
+/*height and width of body*/
+#cv-body{
+    margin: 0 auto;
+    width: 100%;
+    height: 3221.69px;
+    background-color: gainsboro;
+}
+#cv-container{
+    margin: 0 auto;
+    background: #F1F1F1;
+}
+
+#cv-body #cv-container #left-div{
+    float: left;
+    width: 425px;
+    height: 1105px;
+    background-color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px 5px #ddd;
+}
+#cv-body #cv-container #right-div{
+    float:right;
+    margin-left:-5px;
+    width: 868px;
+    height: 1145px;
+    
+    
+}
+#right-div-top{
+    color: rgb(117, 117, 117);
+    display: block;
+    height: 585px;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 45px;
+    background-color: #fff;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px 5px #ddd;
+}
+#right-div-bottom{
+    display: block;
+    color: rgb(117, 117, 117);
+    height: 535px;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px 5px #ddd;
+}
+#cv-footer{
+    clear: both;
+    width: 100%;
+    height: 128px;
+    background: #009688;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 30px;
+}
+.clearfix:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+#pk{
+    background: #444;
+    opacity: 0.4;
+    color: #fff;
+    margin-top: -50px;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    display: block;
+}
+
+#info{
+    height: 170px;
+}
+#briefcase{
+    margin-left: 18px;
+    display: inline-block;
+    float: left;
+}
+#designer{
+    color:rgb(117, 117, 117);
+    margin-top: 3px;
+    margin-left: 18px;
+    margin-bottom: 15px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
+    box-sizing: border-box;
+    display: inline;
+    float:left;
+}
+#country{
+    margin-left: 18px;
+    display: inline-block;
+    float: left;
+}
+#India{
+    color:rgb(117, 117, 117);
+    margin-top: 4px;
+    margin-left: 18px;
+    margin-bottom: 15px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
+    box-sizing: border-box;
+    display: inline;
+    float:left;
+}
+#mail{
+    margin-left: 18px;
+    display: inline-block;
+    float: left;
+}
+#email{
+    color:rgb(117, 117, 117);
+    margin-top: 3px;
+    margin-left: 12px;
+    margin-bottom: 15px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
+    box-sizing: border-box;
+    display: inline;
+    float:left;
+}
+#phone{
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+}
+#number{
+    color:rgb(117, 117, 117);
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
+    box-sizing: border-box;
+    display: inline;
+    float:left;
+}
+#info4{
+    border-bottom: solid 1px #ddd;
+    width:93%;
+    margin: 0 auto;
+}
+#sk{
+    margin-top: 15px;
+}
+.side-logo{
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+}
+#skills{
+    color:rgb(117, 117, 117);
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22.5px;
+    box-sizing: border-box;
+    display: inline;
+    float:left;
+}
+#languages{
+    color:rgb(117, 117, 117);
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 22.5px;
+    box-sizing: border-box;
+    display: inline;
+    float:left;
+}
+work-info{
+    height: 115px;
+}
+#work-ex{
+    margin-top: 30px;
+    
+}
+#wex{
+    margin-top: -20px;
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+}
+#wex1{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: -10px;
+    color: rgb(117, 117, 117);
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 45px;
+    box-sizing: border-box;
+    float: left; 
+}
+#we-title1{
+    display: inline-block;
+    margin-left: -290px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 27px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+#calendar{
+    margin-top: -15px;
+    margin-left: 30px;
+    display: inline-block;
+    float: left;
+}
+#cdate{
+    display: inline-block;
+    float: left;
+    margin-left:10px;
+    color: #009688;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 27px;
+    margin-top: -12px;
+    box-sizing: border-box;
+}
+span{
+    background: #009688;
+    color: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.para{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: -10px;
+    padding-bottom: 20px;
+    text-align: left;
+    border-bottom: solid 1px #ddd;
+    box-sizing: content-box;
+    color: rgb(0, 0, 0);
+    display: block;    
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+#we-title2{
+    display: inline-block;
+    margin-left: 35px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 27px;
+    margin-top: -10px;
+    box-sizing: border-box;
+}
+#we-title3{
+    display: inline-block;
+    margin-left: 35px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 27px;
+    margin-top: -10px;
+    box-sizing: border-box;
+}
+#para1{
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-left:35px;
+    text-align: left;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: block;    
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+@keyframes pbar1{
+    from{border-radius: 16px; background-color: #009688; width: 10%;}
+    to{border-radius: 16px; background-color: #009688; width: 90%;}
+}
+@keyframes pbar2{
+    from{border-radius: 16px; background-color: #009688; width: 10%;}
+    to{border-radius: 16px; background-color: #009688; width: 80%;}
+}
+
+@keyframes pbar3{
+    from{border-radius: 16px; background-color: #009688; width: 10%;}
+    to{border-radius: 16px; background-color: #009688; width: 75%;}
+}
+
+@keyframes pbar4{
+    from{border-radius: 16px; background-color: #009688; width: 10%;}
+    to{border-radius: 16px; background-color: #009688; width: 50%;}
+}
+.p{
+    color: rgb(117, 117, 117);
+    margin-left: 15px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+}
+#pb1 .pcolor{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 12px;
+    animation-name: pbar1;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    background-color: #009688;
+    text-align: center;
+    vertical-align: center;
+    line-height: 1.5;
+    box-sizing: border-box;
+    width: 90%;
+    height: 20px;
+    border-radius: 16px;
+}
+#pb2 .pcolor{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 12px;
+    animation-name: pbar2;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    background-color: #009688;
+    text-align: center;
+    vertical-align: center;
+    line-height: 1.5;
+    box-sizing: border-box;
+    width: 80%;
+    height: 20px;
+    border-radius: 16px;
+}
+#pb3 .pcolor{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 12px;
+    animation-name: pbar3;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    background-color: #009688;
+    text-align: center;
+    vertical-align: center;
+    line-height: 1.5;
+    box-sizing: border-box;
+    width: 75%;
+    height: 20px;
+    border-radius: 16px;
+}
+#pb4 .pcolor{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 12px;
+    animation-name: pbar4;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    background-color: #009688;
+    text-align: center;
+    vertical-align: center;
+    line-height: 1.5;
+    box-sizing: border-box;
+    width: 50%;
+    height: 20px;
+    border-radius: 16px;
+}
+.pcolor1{
+    color: #fff;
+    margin-left:15px;
+    font-size: 12px;
+    background-color: #009688;
+    text-align: center;
+    line-height: 1.5;
+    box-sizing: border-box;
+    width: 95%;
+    height: 25px;
+    border-radius: 16px;
+    margin-bottom: -5px;
+}
+.pcolor2{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 12px;
+    background-color: #009688;
+    text-align: center;
+    line-height: 1.5;
+    box-sizing: border-box;
+    width: 50%;
+    height: 25px;
+    border-radius: 16px;
+    margin-bottom: -5px;
+}
+.pcolor3{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 12px;
+    background-color: #009688;
+    text-align: center;
+    line-height: 1.5;
+    box-sizing: border-box;
+    width: 30%;
+    height: 25px;
+    border-radius: 16px;
+    margin-bottom: -5px;
+}
+.p1{
+    margin-top: 1px;
+}
+#we-title4{
+    display: inline-block;
+    margin-left: -185px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 27px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+#footer-p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Roboto, sans-serif;
+    line-height: 1.5px;
+    padding-top: 10px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+#social-images{
+    margin-top: 15px;
+    text-align: center;
+}
+#fb{
+    height: 15px;
+    width: 15px;
+    margin: 0 auto;
+}
+#insta{
+    height: 15px;
+    width: 15px;
+    margin: 0 auto;
+}
+#snap{
+    height: 15px;
+    width: 15px;
+    margin: 0 auto;
+}
+#pin{
+    height: 15px;
+    width: 15px;
+    margin: 0 auto;
+}
+#twitter{
+    height: 15px;
+    width: 15px;
+    margin: 0 auto;
+}
+#link{
+    height: 15px;
+    width: 15px;
+    margin: 0 auto;
+}
+.icons:hover{
+    opacity: 0.4;
+}
